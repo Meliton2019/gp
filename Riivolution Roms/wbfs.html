@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>WR Project</title>
+        <style>
+            * {
+                font-family: arial;
+            }
+            body {
+                margin: 0;
+                padding: 20px; /* espacio arriba */
+                text-align: center; /* centra el contenido horizontal */
+            }
+            .logos {
+                display: flex;
+                justify-content: center; /* centra las imágenes */
+                gap: 10px;
+                margin-bottom: 15px;
+            }
+            .archive {
+                min-width: 64px;
+                border: none;
+                margin-top: 6px;
+                margin-bottom: 6px;
+                height: 36px;
+                border-radius: 4px;
+                font-family: "Google Sans", Roboto, Arial, sans-serif;
+                font-size: 15px;
+                font-weight: 500;
+                padding: 0 24px;
+                box-sizing: border-box;
+                background-color: rgb(26, 115, 232);
+                color: #fff;
+                cursor: pointer;
+            }
+            .buttons {
+                margin-top: 15px;
+            }
+            .archives {
+                display: flex;
+                flex-direction: column;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="logos">
+            <img src="img/Logo Lorenzo/Gorilmoncat + logo gameoverdeluxe2.png" width="50"alt="logo">
+            <img src="img/Logo Lorenzo/Gameoverdeluxe2 logo blanco y rojo.png" width="150"alt="logo">
+        </div>
+        <h1>WBFS Format</h1>
+        <div class="archives">
+            <button class="archive" type="button" onclick="location.href='wbfs.html'">Newer Super Mario Bros Wii</button>
+            <button class="archive" type="button" onclick="location.href='wup.html'">WUP Format</button>
+        </div>
+    </body>
+</html>
